@@ -7,17 +7,17 @@ if(!isset($_COOKIE['eShopHasCookie']) or $_COOKIE['eShopHasCookie'] <> "Yes") {
   header("Location: index.php?Msg=$Msg");
 }
 
-include('./config/MySQL.php');
+include('MySQL.php');
 include('header.php');
-include('libraries/DatabaseAccessObject.php');
-include('libraries/Database.php');
+include('DatabaseAccessObject.php');
+include('Database.php');
 ?>
 
 <?php
 if(isset($_POST['itemId'])) {
   $id = $_POST['itemId'];
   //echo $id;
-  $data_array = Database::get()->execute("Select * From food where id='" . $id . "'");
+  //$data_array = Database::get()->execute("Select * From food where id='" . $id . "'");
 
   //echo count($data_array);
   //echo $data_array[0]['foodname'];
@@ -30,12 +30,12 @@ if(isset($_POST['itemId'])) {
   <div class="card-body">
     <div class="row">
   <div class="col-md-6">
-    <img class="card-img-top" src="img/<?= $data_array[0]['picname'] ?>" alt="">
+    <!--<img class="card-img-top" src="img/<?= $data_array[0]['picname'] ?>" alt="">-->
   </div>
 
   <div class="col-md-6">
     <p class="card-text text-left">
-      <?= $data_array[0]['description'] ?>
+      <!--<?= $data_array[0]['description'] ?>-->
     </p>
 
     <form action="check.php" method="POST">
