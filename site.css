@@ -1,0 +1,183 @@
+body {
+  line-height:1;
+  color: #333;
+}
+
+ol, ul, h1 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #933;
+  text-decoration: none;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav h1 img {
+  width: 90%;
+}
+
+nav ul {
+  //border-top: 1px solid #999;
+  //background-color: #34495E;
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 50px;
+}
+
+section {
+  font-size: 14px;
+  font-family: "黑體";
+}
+
+section h2 {
+  font-size: 18px;
+  text-align: center;
+  font-family: "黑體";
+  font-weight: lighter;
+}
+
+section span {
+  padding: 0 10px;
+  background-color: #FFF;
+}
+
+section li {
+    text-align: center;
+}
+
+section li img {
+  width: 98%;
+  border-radius: 5px;
+}
+
+section article {
+  border-top: 1px solid #999;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.clear {
+  clear:both;
+  line-height: 5px;
+}
+
+footer {
+  clear:both;border-top: 1px solid #999;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0;
+  color: #666;
+}
+
+@media (min-width: 900px) {
+  nav h1 {
+    float: left;
+    width: 35%;
+    height: 200px;
+  }
+  nav ul {
+    float: left;
+    width: 100%;
+  }
+  nav li {
+    float: left;
+    width: 99%;
+    margin-left: 1%;
+  }
+  section {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+  }
+  section li {
+    float: left;
+    margin: 10px 2px;
+    width: 32%;
+  }
+  section li span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width:600px) and (max-width:900px){
+  nav {
+    float: left;
+    width: 100%;
+  }
+  nav li {
+    float: left;
+    width: 99%;
+    margin-left: 1%;
+  }
+  section {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+  }
+  section li {
+    float: left;
+    margin: 10px 2px;
+    width: 48%;
+  }
+  section li span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+/*
+@media (min-width:400px) and (max-width:600px){
+  nav li {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+  }
+  section {
+    clear: both;
+    padding: 20px 0;
+  }
+  section li {
+    float: left;
+    margin: 10px 2px;
+    width: 48%;
+  }
+  section li span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+*/
+@media (max-width:600px) {
+  nav li {
+    float: left;
+    width: 99%;
+    margin-left: 1%;
+  }
+
+  section {
+    clear: both;
+    padding: 20px 0;
+  }
+
+  section li {
+    margin: 10px 2px;
+  }
+  section li span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
+}
