@@ -9,7 +9,7 @@
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="bootstrap.min.js"></script>
   <?php
-  include('config/Config.php');
+  include('Config.php');
    ?>
 </head>
 <body>
