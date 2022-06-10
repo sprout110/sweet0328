@@ -28,7 +28,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(1);">
-              <img class="card-img-top" src="img/pic1.jpg" alt="">
+              <img class="card-img-top" src="pic1.jpg" alt="">
             </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
@@ -37,7 +37,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(2);">
-            <img class="card-img-top" src="img/pic2.jpg" alt="">
+            <img class="card-img-top" src="pic2.jpg" alt="">
             </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
@@ -46,7 +46,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(3);">
-            <img class="card-img-top" src="img/pic3.jpg" alt="">
+            <img class="card-img-top" src="pic3.jpg" alt="">
             </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
@@ -55,7 +55,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(4);">
-            <img class="card-img-top" src="img/pic4.jpg" alt="">
+            <img class="card-img-top" src="pic4.jpg" alt="">
             </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
@@ -64,7 +64,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(5);">
-            <img class="card-img-top" src="img/pic5.jpg" alt="">
+            <img class="card-img-top" src="pic5.jpg" alt="">
             </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
@@ -73,7 +73,7 @@ if(isset($_GET['Msg'])){
         <div class="card col-md-6 col-lg-4">
           <div class="card-body">
             <a href="javascript:sendPost(6);">
-            <img class="card-img-top" src="img/pic6.jpg" alt="">
+            <img class="card-img-top" src="pic6.jpg" alt="">
           </a>
             <h5 class="card-text text-center">和果子</h5>
           </div>
