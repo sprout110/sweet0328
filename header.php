@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>紹光有點甜</title>
+  <title>韶光微甜</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="sweet.css" />
@@ -21,7 +21,7 @@
     box-shadow
     mb-3">
 
-    <a class="navbar-brand text-myorange" href="<?=Config::BASE_URL?>">紹光有點甜</a>
+    <a class="navbar-brand text-myorange" href="<?=Config::BASE_URL?>">韶光微甜</a>
 
     <button class="navbar-toggler" type="button"
         data-toggle="collapse"
@@ -35,7 +35,7 @@
               <a class="nav-link text-myorange" href="<?=Config::BASE_URL?>">和果子</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link text-myorange" href="<?=Config::BASE_URL?>check.php">選購清單</a>
+              <a class="nav-link text-myorange" href="<?=Config::BASE_URL?>check.php">聯絡方式</a>
           </li>
       </ul>
     </div>
