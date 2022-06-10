@@ -1,5 +1,5 @@
 <?php
 class Config {
-  const BASE_URL = "/sweet/";
+  const BASE_URL = "/";
 }
  ?>
