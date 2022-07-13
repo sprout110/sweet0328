@@ -87,8 +87,11 @@ function Get_Body() {
 	}
 	*/
 	
-	$Template_dir = dirname(dirname(__FILE__)) . '/view/body/';
-		
+	
+	
+	$controller_dir = dirname(dirname(__FILE__)) . '/controller/';
+	include($controller_dir . $parameter . '.php');
+	/*	
 	switch($parameter) {
 		case 'contact':
 			$Template_Page = $Template_dir . 'contact.php';
@@ -102,6 +105,7 @@ function Get_Body() {
 	
 	$Html_Page = rwd_render($Template_Page, $Content_Data);
 	return $Html_Page;
+	*/
 	
 }
 
