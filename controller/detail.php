@@ -7,10 +7,10 @@ if(!isset($_COOKIE['eShopHasCookie']) or $_COOKIE['eShopHasCookie'] <> "Yes") {
   header("Location: index.php?Msg=$Msg");
 }
 
-include('MySQL.php');
-include('header.php');
-include('DatabaseAccessObject.php');
-include('Database.php');
+include('../module/MySQL.php');
+include('../header.php');
+include('../DatabaseAccessObject.php');
+include('../Database.php');
 ?>
 
 <?php

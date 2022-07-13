@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <title>韶光微甜</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="sweet.css" />
-  <script type="text/javascript" src="jquery.min.js"></script>
-  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../source/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../source/sweet.css" />
+  <script type="text/javascript" src="../source/jquery.min.js"></script>
+  <script type="text/javascript" src="../source/bootstrap.min.js"></script>
   <?php
-  include('Config.php');
+  include('../Config.php');
    ?>
 </head>
 <body>
