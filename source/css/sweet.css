@@ -1,0 +1,17 @@
+.bg-myyellow {
+  background-color: yellow;
+}
+
+.text-myorange {
+  color: #933 !important;
+}
+
+.blacklink {
+  text-decoration: none;
+  color:black !important;
+}
+
+.blacklink:hover {
+  text-decoration: none;
+  color:black !important;
+}

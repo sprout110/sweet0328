@@ -1,0 +1,17 @@
+
+.text-mycolor {
+  color: #933 !important;
+}
+
+.card {
+  border: 0;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #933;
+}
+
+.bg-mycolor {
+  background-color: yellow;
+}

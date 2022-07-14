@@ -5,7 +5,7 @@
   <title><?= $_data['Title']; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="source/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/sweet.css" />
+  <link rel="stylesheet" type="text/css" href="source/css/sweet.css" />
   <script type="text/javascript" src="source/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="source/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
