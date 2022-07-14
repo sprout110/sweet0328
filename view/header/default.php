@@ -18,7 +18,7 @@
     box-shadow
     mb-3 pt-2 pb-3" style="background-color:<?= $_data['Navbar-BackgroundColor'] ?>">
 
-      <a class="navbar-brand text-myorange" href="<?= $_data['BaseUrl'] ?>">
+      <a class="navbar-brand text-myorange" href="<?= $_data['BASE_URL'] ?>">
         <div class="mb-1">
         <?= $_data['Navbar-Brand']; ?>
       </div>

@@ -15,15 +15,15 @@ class Config {
 			//echo "\$_SERVER['REQUEST_URI']:" . $_SERVER['REQUEST_URI'] . "<br />";
 			//echo "<-";
 			
-			/*
+			
 			$Y = strpos(strtolower($_SERVER['REQUEST_URI']), "sweet0328");
 			
 			if(gettype($Y) <> "integer")
 				self::$baseUrl = "/";
 			else
 				 self::$baseUrl = "/sweet0328/";
-			*/
-			self::$baseUrl = $_SERVER['REQUEST_URI'];
+			
+			//self::$baseUrl = $_SERVER['REQUEST_URI'];
 		}
 		
 		if(!isset(self::$market)) {
@@ -39,7 +39,7 @@ class Config {
 				self::$market = $market_dir . "Market" . --$year . ".json";
 			}
 					
-			echo "上架檔" . self::$market . "<br />";
+			//echo "上架檔" . self::$market . "<br />";
 		}
 		
 		if(!isset(self::$products)) {
